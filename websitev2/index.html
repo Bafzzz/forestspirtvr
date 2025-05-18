@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Forest</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      background:
+        url('images/IMG_2060.jpeg') center center / cover no-repeat,
+        linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      text-align: center;
+      padding: 40px;
+      color: #d1e8e2;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+      text-shadow: 0 0 8px #4caf5080;
+    }
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .button {
+      background-color: rgba(22, 44, 59, 0.85);
+      color: #a3d9a5;
+      padding: 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 20px;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+      display: inline-block;
+      user-select: none;
+    }
+    .button:hover {
+      background-color: #4caf50;
+      color: #0f1e12;
+      box-shadow: 0 0 16px #4caf50cc, 0 0 40px #4caf50aa;
+    }
+  </style>
+</head>
+<body>
+  <h1>Forest</h1>
+
+  <div class="button-grid">
+    <a href="#" class="button">Forest</a>
+    <a href="https://discord.gg/rTWDaXvbe" target="_blank" class="button">Discord</a>
+    <a href="#" class="button">Info</a>
+    <a href="https://www.youtube.com/watch?v=_k5LqFW-3I0" target="_blank" class="button">YouTube</a>
+    <a href="https://gofund.me/fe75a27c" target="_blank" class="button">GoFundMe</a>
+    <a href="#" class="button">Table</a>
+    <a href="creds.html" class="button">Credits</a>
+    <a href="fanart.html" class="button">Fanart</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fanart - Forest</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      background:
+        url('images/IMG_2060.jpeg') center center / cover no-repeat,
+        linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #d1e8e2;
+      padding: 40px;
+      text-align: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+      text-shadow: 0 0 8px #4caf5080;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      max-width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(76, 175, 80, 0.8);
+    }
+    .back-button {
+      margin-top: 40px;
+      display: inline-block;
+      background-color: rgba(22, 44, 59, 0.85);
+      color: #a3d9a5;
+      padding: 14px 28px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+      transition: background-color 0.3s ease, transform 0.25s ease, box-shadow 0.3s ease;
+    }
+    .back-button:hover {
+      background-color: #4caf50;
+      color: #0f1e12;
+      box-shadow: 0 0 16px #4caf50cc, 0 0 40px #4caf50aa;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Fanart</h1>
+  <div class="gallery">
+    <img src="images/fanart/IMG_2059.jpeg" alt="Fanart" />
+  </div>
+
+  <a href="index.html" class="back-button">← Back to Home</a>
+</body>
+</html>
